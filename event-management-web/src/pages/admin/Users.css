@@ -1,0 +1,50 @@
+.admin-users-page {
+  padding: 40px;
+}
+
+.admin-users-page h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f1f1f;
+}
+
+.users-table th,
+.users-table td {
+  padding: 12px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #2a2a2a;
+}
+
+.approve-btn {
+  background-color: #4caf50;
+  border: none;
+  padding: 6px 12px;
+  margin-right: 8px;
+  border-radius: 4px;
+  color: white;
+}
+
+.reject-btn {
+  background-color: #e53935;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+.approve-btn:hover {
+  background-color: #43a047;
+}
+
+.reject-btn:hover {
+  background-color: #c62828;
+}

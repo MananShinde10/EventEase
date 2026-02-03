@@ -1,0 +1,35 @@
+.events-page {
+  padding: 40px;
+}
+
+.events-page h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.events-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 25px;
+}
+
+.event-card {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  transition: transform 0.2s;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+}
+
+.event-card h3 {
+  margin-bottom: 10px;
+}
+
+.event-card p {
+  color: #ccc;
+  margin-bottom: 10px;
+}

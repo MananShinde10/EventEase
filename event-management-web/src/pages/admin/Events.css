@@ -1,0 +1,71 @@
+.admin-events-page {
+  padding: 40px;
+}
+
+.admin-events-page h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.events-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #1f1f1f;
+}
+
+.events-table th,
+.events-table td {
+  padding: 12px;
+  border: 1px solid #333;
+  text-align: left;
+}
+
+.events-table th {
+  background-color: #2a2a2a;
+}
+
+.status {
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+  text-transform: capitalize;
+}
+
+.status.draft {
+  background-color: #777;
+}
+
+.status.pending {
+  background-color: #ff9800;
+  color: black;
+}
+
+.status.published {
+  background-color: #4caf50;
+  color: black;
+}
+
+.approve-btn {
+  background-color: #4caf50;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  margin-right: 8px;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #e53935;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: white;
+}
+
+.approve-btn:hover {
+  background-color: #43a047;
+}
+
+.delete-btn:hover {
+  background-color: #c62828;
+}

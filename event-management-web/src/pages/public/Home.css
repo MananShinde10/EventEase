@@ -1,0 +1,36 @@
+.home {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.home h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 18px;
+  color: #cccccc;
+  max-width: 600px;
+  margin: auto;
+}
+
+.home-actions {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.primary-btn {
+  background-color: #4da3ff;
+  padding: 12px 24px;
+  color: black;
+  border-radius: 5px;
+}
+
+.secondary-btn {
+  border: 1px solid #777;
+  padding: 12px 24px;
+  border-radius: 5px;
+}
